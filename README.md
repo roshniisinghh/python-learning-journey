@@ -6,14 +6,20 @@ I'm a first-year B.Tech AIML student.
 
 This repository contains all the Python projects I'm building while learning programming.
 
-## Projects Completed
-
+## Projects
 - ✅ Calculator
+- ⬜ Number Guessing Game
+- ⬜ Rock Paper Scissors
+- ⬜ Hangman
+- ⬜ To-Do List
 
-## Current Goal
+## Technologies
+- Python
+- Git
+- GitHub
 
-Become a software engineer and get an internship by next June.
+## Goal
+Become a software engineer and secure an internship by June 2027.
 
 ---
-
-Learning one day at a time.
+Learning one project at a time.
