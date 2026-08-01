@@ -23,3 +23,4 @@ Become a software engineer and secure an internship by June 2027.
 
 ---
 Learning one project at a time.
+Learning Git and GitHub using the command line. 🚀
