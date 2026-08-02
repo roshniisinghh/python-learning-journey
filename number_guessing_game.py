@@ -1,4 +1,5 @@
 import random
+import sys
 
 while True:
 
@@ -17,7 +18,13 @@ while True:
     won = False
 
     for i in range(1,11):   #Number of attempts is 10
-        guess = int(input("Enter your guess: "))
+
+        while True:
+            try:
+                guess = int(input("Enter your guess: "))
+                break
+            except ValueError:
+                print("Please enter a valid number.")
         if guess > secret_number:
             print("Too High!")
         elif guess < secret_number:
@@ -32,9 +39,16 @@ while True:
         print("Game Over!")
         print(f"The secret number was {secret_number}")
 
-    replay = input("Do you want to play again(Yes/No): ").strip().title()
-    if replay == "No":
-        print("Thanks for playing!")
-        break
+    while True:
+    
+            replay = input("Do you want to play again? (Yes/No): ").strip().title()
+    
+            if replay == "Yes":
+                break          
+            elif replay == "No":
+                print("Thanks for playing!")
+                sys.exit()        
+            else:
+                print("Choose a valid option (Yes/No)")
 
     
