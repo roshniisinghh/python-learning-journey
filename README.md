@@ -9,7 +9,7 @@ This repository contains all the Python projects I'm building while learning pro
 ## Projects
 - ✅ Calculator
 - ✅ Number Guessing Game
-- ⬜ Rock Paper Scissors
+- ✅ Rock Paper Scissors
 - ⬜ Hangman
 - ⬜ To-Do List
 
