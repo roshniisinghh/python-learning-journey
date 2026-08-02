@@ -1,42 +1,35 @@
 from random import choice
 import sys
 
-options = ["Rock", "Paper", "Scissors"]
+game_choice = ["Rock", "Paper", "Scissors"]
+wins = {
+    "Rock": "Scissors",
+    "Paper": "Rock",
+    "Scissors": "Paper"
+}
 user_score = 0
 computer_score = 0
 
 while True:
     user_choice = input("Choose Rock, Paper, or Scissors: ").strip().title()
 
-    if user_choice not in options:
+    if user_choice not in game_choice:
         print("Invalid choice!")
         continue
 
-    computer_choice = choice(options)
+    computer_choice = choice(game_choice)
 
     print(f"You chose: {user_choice}")
     print(f"Computer chose: {computer_choice}")
 
     if user_choice == computer_choice:
         print("It's a Draw!")
-    elif user_choice == "Rock" and computer_choice == "Paper":
-        print("Computer Wins!")
-        computer_score += 1
-    elif user_choice == "Rock" and computer_choice == "Scissors":
+    elif wins[user_choice] == computer_choice:
         print("You Win!")
         user_score += 1
-    elif user_choice == "Paper" and computer_choice == "Rock":
-        print("You Win!")
-        user_score += 1
-    elif user_choice == "Paper" and computer_choice == "Scissors":
+    else:
         print("Computer Wins!")
         computer_score += 1
-    elif user_choice == "Scissors" and computer_choice == "Rock":
-        print("Computer Wins!")
-        computer_score += 1
-    elif user_choice == "Scissors" and computer_choice == "Paper":
-        print("You Win!")
-        user_score += 1
 
     print("------ SCORE ------")
     print(f"You: {user_score}")
