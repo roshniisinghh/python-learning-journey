@@ -1,26 +1,25 @@
-# Python Learning Journey 🚀
+# Hi, I'm Roshni 👋
 
-Hi! I'm Roshni.
+🎓 B.Tech student specializing in Artificial Intelligence and Machine Learning
 
-I'm a first-year B.Tech AIML student.
+I'm building my foundations in software engineering, data analysis, and machine learning through consistent practice and hands-on projects.
 
-This repository contains all the Python projects I'm building while learning programming.
+### Currently learning
+- Python and Data Structures & Algorithms
+- NumPy and Pandas
+- Machine Learning fundamentals
+- Git and GitHub
 
-## Projects
-- ✅ Calculator
-- ✅ Number Guessing Game
-- ✅ Rock Paper Scissors
-- ⬜ Hangman
-- ⬜ To-Do List
+### Projects
+- **Python Learning Journey** — beginner Python projects and programming practice
+- More data analysis and machine learning projects coming as I learn
 
-## Technologies
-- Python
-- Git
-- GitHub
+### Goals
+- Strengthen problem-solving and core computer science fundamentals
+- Build useful, well-documented projects
+- Prepare for software engineering and AI/ML internships
 
-## Goal
-Become a software engineer and secure an internship by June 2027.
+### Connect
+- GitHub: [@roshniisinghh](https://github.com/roshniisinghh)
 
----
-Learning one project at a time.
-Learning Git and GitHub using the command line. 🚀
+*Learning consistently, building one project at a time.*
